@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+    <link rel="shortcut icon" type="image/x-icon" href="path/to/favicon.ico">
+	<style>
+		/* Style for navigation bar */
+		nav {
+			background-color: #720a0a;
+			overflow: hidden;
+		}
+		
+		nav a {
+			float:right;
+			color: white;
+			text-align: right;
+			padding: 20px 26px;
+			text-decoration: navy;
+			font-size: 20px;
+		}
+		hi {float:center;
+			color: white;
+			text-align: center;
+			padding: 20px 26px;
+			text-decoration: navy;
+			font-size: 40px;
+
+		}
+		
+		nav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+		
+		nav a.active {
+			background-color: #4CAF50;
+			color: white;
+		}
+		.slideshow-container {
+  position:relative;
+  margin: 0cm;
+  max-width: 1120px;
+}
+
+.mySlides {
+  display: none;
+  width: 120%;
+}
+
+.mySlides img {
+  width:100%;
+  height: 500px;
+  object-fit:cover;
+}
+
+/* Next and previous buttons */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: -22px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: rgba(6, 248, 78, 0.5);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: rgba(13, 206, 55, 0.5);
+  color: #5228e7;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot-container {
+  text-align: center;
+  margin-top: 20px;
+} {
+  background-color: #fff;
+}
+	</style>
+</head>
+<body style="background-color: rgb(206, 20, 135);">
+	<!-- Navigation bar -->
+	<nav style="font-size: larger;">
+		<hi style="color: rgb(9, 218, 89);"><i><b>Flower Your World </i></b></hi>
+		<a href="more.html"target="content of the selected html file">more</a>
+		<a href="contact2.html"target="content of the selected html file">contact2</a>
+		<a href="about.html"target="content of the selected html file">about</a>
+		<a href="info.html"target="content of the selected html file">info</a>
+		<a class="active" href=""> home</a>
+	</nav>
+	
+		<div class="slideshow-container" style="font-size: medium;">
+			<div class="mySlides">
+			  <img src="Front-house-flower-bed.jpg">
+			</div>
+			<div class="mySlides">
+			  <img src="81OIgUnC80L._SL1500_.jpg">
+			</div>
+			<div class="mySlides">
+			  <img src="962819.jpg">
+			</div>
+			
+			  <div class="mySlides">
+				<img src="chicago-botantic-garden-GettyImages-95607462.webp">
+				</div>
+				
+			<div class="mySlides">
+						<img src="IMG-20230220-WA0045.jpg">
+						</div>
+		  </div>
+		  <script>
+			var slideIndex = 0;
+			showSlides();
+			
+			function showSlides() {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			  }
+			  slideIndex++;
+			  if (slideIndex > slides.length) {slideIndex = 1}
+			  slides[slideIndex-1].style.display = "block";
+			  setTimeout(showSlides, 2000); // Change image every 5 seconds
+			}
+		  </script></td>
+		  <body>
+			<h1>Flower Table</h1>
+			<table>
+				<tr>
+					<th>Flower Name</th>
+					<th>Description</th>
+					<th>Image</th>
+				</tr>
+				<tr>
+					<td>Rose</td>
+					<td>The rose is a perennial flowering plant with over 100 species. They are known for their beauty and fragrance and are often used as a symbol of love and romance.</td>
+					<td><img src="rose.jpg" alt="Rose"></td>
+				</tr>
+				<tr>
+					<td>Tulip</td>
+					<td>The tulip is a bulbous perennial plant with showy flowers in the genus Tulipa, of which around 75 wild species are currently accepted and which belongs to the family Liliaceae.</td>
+					<td><img src="tulip.jpg" alt="Tulip"></td>
+				</tr>
+				<tr>
+					<td>Sunflower</td>
+					<td>The sunflower
+						<header>
+							<h1>Flower Page</h1>
+						  </header>
+					  
+						  <nav>
+							<ul>
+							  <li><a href="#">Flower 1</a></li>
+							  <li><a href="#">Flower 2</a></li>
+							  <li><a href="#">Flower 3</a></li>
+							  <li><a href="#">Flower 4</a></li>
+							  <li><a href="#">Flower 5</a></li>
+							</ul>
+						  </nav>
+					  
+						
+	
+</body>
+</html>
